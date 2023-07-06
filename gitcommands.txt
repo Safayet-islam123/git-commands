@@ -1,0 +1,21 @@
+              <----- Git commands ----->
+
+1. কোন ফোল্ডার এ আছি তা দেখার জন্য ~~ [ pwd ].
+2. নতুন ফোল্ডার এ যাওয়ার জন্য ~~ [ CD (folder-name) ].
+3. পিছনের ফোল্ডার এ ব্যাক করার জন্য ~~ [ CD .. ].
+4. ফোল্ডার এ কি কি আছে তা দেখার জন্য ~~ [ ls/ ls -a/ dir ].
+5. নতুন ফোল্ডার তৈরি করার জন্য ~~ [ mkdir <folder_name> ].
+6. Git initialize করতে ~~ [ git init ].
+7. ফোল্ডেরের মধ্যে কোনো ফাইল তৈরি করতে ~~ [ touch/echo > <file_name> ].
+8. Git status চেক করার জন্য ~~ [ git status ].
+9. ফাইল ওপেন করার জন্য ~~ [ start <file_name> ].
+10. Vs Code দিয়ে ফাইল ওপেন করার জন্য ~~ [ start code <file_name> ]
+11. ফাইল এর ভিতরের লেখা দেখার জন্য ~~ [ cat <file_name> ]
+12. Screen Clear করার জন্য ~~ [ clear ]
+13. Working direcetory থেকে Staging area তে নিতে ~~ [ git add <file_name>/ git add ./ git add -A ].
+14. staging area তে পরিবর্তন চেক করার জন্য ~~ [ git diff ]. 
+15. পরিবর্তন বাতিল করার জন্য ~~ [ git restore ]
+16. Staging area থেকে unstage করতে ~~ [ git rm --cached <file_name> ].
+17. Staging area থেকে local repository তে নিতে ~~ [ git commit -m " <massage> "].
+18. Working direcetory থেকে এক সাথে local repository তে নিতে ~~ [ git add . && git commit -m " <massage> "]
+19. master branch মেইন branch এ change করতে ~~ [ git branch -M main ].
